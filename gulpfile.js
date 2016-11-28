@@ -14,5 +14,5 @@ gulp.task( 'style-guide', function() {
 
 // Watch files for changes
 gulp.task( 'watch', function() {
-	gulp.watch( 'assets/style-guide/**/*.scss', ['style-guide'] );
+	gulp.watch( 'assets/**/*.scss', ['style-guide'] );
 });
